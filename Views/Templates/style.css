@@ -1,1 +1,30 @@
+.container {
+    padding: 10px 15px 20px;
+}
 
+.row {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+footer {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #efefef;
+    text-align: center;
+}
+
+@media only screen and (min-width : 768px) {
+    .is-table-row {
+        display: table;
+    }
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+    #task-img {
+        width: 25%;
+    }
+}
